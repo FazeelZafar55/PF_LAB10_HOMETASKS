@@ -1,0 +1,2 @@
+Product: Milk | Price: 240.00 | Quantity: 2
+Product: Bread | Price: 200.00 | Quantity: 4

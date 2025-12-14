@@ -1,0 +1,5 @@
+Karachi 37.00
+Lahore 32.00
+Islamabad 20.00
+Peshawar 24.00
+Kashmir 12.00

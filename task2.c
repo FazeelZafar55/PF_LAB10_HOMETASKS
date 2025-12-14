@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    FILE *file;
+    char name[100];
+    int count = 0;
+
+    file = fopen("attendance.txt", "r");
+    if (file == NULL) {
+        printf("Error: Could not open attendance.txt\n");
+        return 1;
+    }
+    printf("Students Present Today:\n");
+    printf("------------------------\n");
+    while (fgets(name, sizeof(name), file) != NULL) {
+        printf("%s", name);  
+        count++;             
+    }
+    fclose(file);
+    printf("\nTotal students present: %d\n", count);
+
+    return 0;
+}
